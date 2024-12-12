@@ -7,7 +7,7 @@ from kivy.uix.button import Button
 
 class WeatherApp(App):
     def build(self):
-        self.api_key = "b155ddc114134a2bb6582705241212"  # Replace with your WeatherAPI.com API key
+        self.api_key = ""  # Replace with your WeatherAPI.com API key
 
         # Main layout
         self.layout = BoxLayout(orientation='vertical', padding=10, spacing=10)
